@@ -22,7 +22,7 @@ public class Main {
             System.out.println("1. Crear un nuevo producto");
             System.out.println("2. Imprimir informacion del producto");
             System.out.println("3. Salir");
-            System.out.print("Seleccione una opción: ");
+            System.out.print("Seleccione una opcion: ");
             opcion = scanner.nextInt();
 
             switch (opcion) {
