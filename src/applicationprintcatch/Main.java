@@ -17,9 +17,10 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("Menú de opciones:");
+            System.out.print("*******");
+            System.out.println("Menu de opciones:");
             System.out.println("1. Crear un nuevo producto");
-            System.out.println("2. Imprimir información del producto");
+            System.out.println("2. Imprimir informacion del producto");
             System.out.println("3. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = scanner.nextInt();
